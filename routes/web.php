@@ -21,7 +21,8 @@ Route::post('add', [ 'uses'=> 'Auth\RegisterController@regis', 'as' => 'add']);
 Route::get('register','Auth\RegisterController@register')->name('register');
 Route::get('login','Auth\LoginController@signin')->name('login');
 Route::get('profile','Auth\ProfileController@profile')->name('profile');
+Route::get('listuser','ManagerController@listuser')->name('listuser');
 
 // Dasboard
-Route::get('listuser','ManagerController@listuser')->name('listuser');
+Route::get('dasboard','ManagerController@dasboard')->name('dasboard');
 Route::get('DasboardKemas','Controller@DasboardKemas')->name('DasboardKemas');

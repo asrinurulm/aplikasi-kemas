@@ -32,7 +32,7 @@
 								<tr class="odd gradeX">
 									<td class="center">
 										<button class="btn btn-sm btn-primary"><li class="fa fa-check"></li> Approve</button>
-										<button class="btn btn-sm btn-danger"><li class="fa fa-times"></li> Approve</button>
+										<button class="btn btn-sm btn-danger"><li class="fa fa-times"></li> Reject</button>
 									</td>
 									<td>{{$user->role->namaRule}}</td>
 									<td>{{$user->email}}</td>

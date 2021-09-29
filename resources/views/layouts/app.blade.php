@@ -19,7 +19,7 @@
             <ul class="dropdown-menu dropdown-tasks">
               <li class="divider"></li><li><a href="{{route('profile')}}"><div> Profile <i class="fa fa-users fa-fw"></i></div></a></li>
               @if( Auth::user()->role->namaRule == 'Admin')
-              <li class="divider"></li><li><a href="#"><div> List User <i class="fa fa-list fa-fw"></i></div></a></li>
+              <li class="divider"></li><li><a href="{{route('listuser')}}"><div> List User <i class="fa fa-list fa-fw"></i></div></a></li>
               <li class="divider"></li><li><a href="#"><div> Approval <i class="fa fa-check fa-fw"></i></div></a></li>
               @endif
               <li class="divider"></li>
@@ -36,7 +36,7 @@
             </ul>
           </li>
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>Form</b><i class="fa fa-file-archive-o fa-fw"></i> <i class="fa fa-caret-down"></i></a>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>SER</b><i class="fa fa-file-text fa-fw"></i> <i class="fa fa-caret-down"></i></a>
             <ul class="dropdown-menu dropdown-alerts">
               <li class="divider"></li><li><a href="#"><div> Form 1 <i class="fa fa-file-text fa-fw"></i></div></a></li>
               <li class="divider"></li><li><a href="#"><div> Form 2 <i class="fa fa-file-text fa-fw"></i></div></a></li>
