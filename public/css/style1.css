@@ -1,0 +1,35 @@
+/*start:profile v1*/
+.profile-v1{}
+.profile-v1 .profile-v1-cover{
+  top: 0;
+  max-height: 300px;
+  min-height: 300px;
+  padding: 0px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.profile-v1 .profile-v1-body{padding-right: 0px;}
+.profile-v1 .profile-v1-name h2{font-weight: bold;color: #fff;text-shadow: -1px -1px 1px #111111, 2px 2px 1px #363636;}
+.profile-v1 .profile-v1-cover img{min-width: 100%;}
+.profile-v1 .profile-v1-pp{z-index:9;position: absolute;margin:85px 1200px; width: 400px;}
+.profile-v1 .profile-v1-pp h2{padding-left: 20px;color:#fff;}
+.profile-v1 .profile-v1-pp .btn{margin-left: 20px;}
+.profile-v1 .profile-v1-pp img{border:2px solid #fff;margin-left: 20px;width: 100px;height: 100px;}
+.profile-v1 .profile-v1-right{padding-left: 0px;}
+.profile-v1 .profile-v1-right .sub-profile-v1-right{min-height: 150px;background: #fff;}
+.profile-v1 .profile-v1-right .sub-profile-v1-right h1{font-size: 4em;}
+.profile-v1 .profile-v1-right .sub-profile-v1-right p{margin-top: -10px;}
+.profile-v1 .profile-v1-right  .sub-profile-v1-right1{padding: 20px;}
+.profile-v1 .profile-v1-right  .sub-profile-v1-right2{color:#fff;background: #6254b2; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);padding:20px;}
+.profile-v1 .profile-v1-right  .sub-profile-v1-right3{color:#fff;background: #2196f3;padding: 20px;}
+.profile-v1 .profile-v1-right  .sub-profile-v1-right3:after{
+    position: absolute;
+    top: -10px;
+    left: 132px;
+    display: inline-block;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid  #2196f3;
+    border-left: 10px solid transparent;
+    content: '';
+}
+/*end: profile*/
