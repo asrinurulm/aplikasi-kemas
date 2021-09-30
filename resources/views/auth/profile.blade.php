@@ -7,7 +7,7 @@
 	<div id="content" class="profile-v1">
 		<div class="col-md-12 col-sm-12 profile-v1-wrapper">
 			<div class="profile-v1-pp">
-			<center><b><h3 style="color:#000"> {{ Auth::user()->name }} <img src="{{ asset('images/user.png') }}" style="width: 180px;height: 180px;border-radius: 50%;"/></h3></b></center>
+			<b><h3 style="color:#000"> {{ Auth::user()->name }} <img src="{{ asset('images/user.png') }}" style="width: 180px;height: 180px;border-radius: 50%;"/></h3></b>
 			</div>
 			<div class="col-md-12 profile-v1-cover">
 				<img src="{{ asset('images/profile.jpg') }}" class="img-responsive img-thumbnail">
